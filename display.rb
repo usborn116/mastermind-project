@@ -10,6 +10,8 @@ class Game
     play
   end
 
+  private
+
   def input
     puts 'Enter 1 to be the code guesser or 2 to be the code maker'
     choice = gets.chomp
@@ -145,4 +147,3 @@ class CodeMaker
 end
 
 game = Game.new
-game.play
