@@ -146,4 +146,4 @@ class CodeMaker
   end
 end
 
-game = Game.new
+Game.new
